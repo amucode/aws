@@ -61,5 +61,11 @@
        AWS_SECRET_ACCESS_KEY=********************
        AWS_ACCESS_KEY=*********************
              
-         
+# How to run dymanic inventory 
+  
+      # ansible -i ec2.py -u ec2-user tag_Name_nginx -m ping
+   
+  json file will be generate on ~/.ansible/tmp/ansible-ec2-***.index
+      
+
       
