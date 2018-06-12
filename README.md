@@ -67,5 +67,8 @@
    
   json file will be generate on ~/.ansible/tmp/ansible-ec2-***.index
       
-
+# Shell script to collect AWS ECR token 
+    # sh token.sh
+# setting jenkins job to build docker image and push to ECR
+    # add build step as execute shell and paste ecrlogin.sh
       
